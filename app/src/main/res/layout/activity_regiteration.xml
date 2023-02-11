@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Regiteration">
+
+
+    <TextView
+        android:id="@+id/tvRegitertion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regitertion Form"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvRegitertion"
+        android:hint="Enter Your Name"
+        android:layout_margin="10dp"
+
+        />
+    <EditText
+        android:id="@+id/etAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etName"
+        android:layout_margin="10dp"
+        android:hint="Age"/>
+    <EditText
+        android:id="@+id/etGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etAge"
+        android:hint="Gender"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etGender"
+        android:hint="Enter Your Email"
+        android:layout_margin="10dp"
+
+        />
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPassword"
+        android:hint="Enter Your Password"
+        android:layout_below="@id/etEmail"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etPassword"
+        android:layout_centerHorizontal="true"
+         android:text="Done"
+        android:layout_margin="10dp"/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDone"
+        android:text="Alreay Regiter"
+        android:id="@+id/tvAlReadyRegiter"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp"
+
+        />
+
+
+</RelativeLayout>
